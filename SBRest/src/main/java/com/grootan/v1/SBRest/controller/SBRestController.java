@@ -17,6 +17,7 @@ import com.grootan.v1.SBRest.dto.QuestionAndAnswersTemplateDto;
 import com.grootan.v1.SBRest.dto.User;
 import com.grootan.v1.SBRest.service.SBRestService;
 
+import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
@@ -28,6 +29,7 @@ import io.swagger.annotations.ApiResponses;
  *
  */
 @RestController
+@Api(value="SBRest",description="Rest Api's",produces ="application/json")
 @RequestMapping({ "/v1/rest" })
 public class SBRestController {
 		

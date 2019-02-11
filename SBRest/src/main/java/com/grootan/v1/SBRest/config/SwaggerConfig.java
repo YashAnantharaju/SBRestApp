@@ -36,6 +36,8 @@ public class SwaggerConfig {
 		return new ApiInfoBuilder()
 				.title("Grootan Technologies SpringBoot Rest Apis")
 				.contact("N.Kranthi Kumar")
+				.description("This page lists all the rest apis for Grootan Technologies")
+			    .version("1.0-SNAPSHOT")
 				.build();
 	}
 }
